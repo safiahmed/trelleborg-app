@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="media/images/favicon.ico">
+        <title>Resource Monitoring | Trelleborg Sealing Solutions</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="media/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet"  media="screen" href="media/css/bootstrap-datetimepicker.css" />
+        <link rel="stylesheet"  media="screen" href="media/css/bootstrap-checkbox.css" />
+        <link rel="stylesheet"  media="screen" href="media/css/bootstrap-combobox.css" />
+        <link href="media/css/dashboard.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="media/css/datepicker.css">
+        <link href="media/css/style.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" type="text/css" href="media/css/tss_header.css">
+        <link href="media/css/DT_bootstrap.css" rel="stylesheet">
+
+        <!-- Font awesome css -->
+        <link rel="stylesheet" href="media/css/font-awesome.min.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+              <script src="media/js/html5shiv.js"></script>
+              <script src="media/js/respond.min.js"></script>
+            <![endif]-->
+
+        <!--#include file="tss_header.html" -->
+
+
+    </head>
+
+    <body>
+        <!-- Header Tag -->
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <div title="Trelleborg Sealing Solutions - Resource Monitoring" class="navbar-brand"><a href="index.html"><img src="media/images/tss_logo.png" alt="Trelleborg Sealing Solutions - Resource Monitoring"   /></a></div>
+                    <div class="pull-left applicationBrand"><img src="media/images/tssRM.png" alt="Trelleborg Sealing Solutions - Resource Monitoring"   /></div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <div class="navbar-right topRightsection">
+                        <div class="row">
+                            <div class="tss_welcomeMessage navbar-left"><span class="glyphicon glyphicon-user"></span> Welcome! Ferdinand </div>
+                            <!-- <form class="navbar-form navbar-right" role="search">
+                              <div class="form-group">
+                                <input type="text" class="form-control input-sm" placeholder="Search">
+                              </div>
+                              <button type="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search"></span></button>
+                            </form> -->
+                        </div>
+                        <div class="row">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="dropdown drpLang"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Language</span> <b class="caret"></b></a>
+                                    <ul class="dropdown-menu drpLangMenu">
+                                        <li><a href="#">English</a></li>
+                                        <li role="presentation" class="divider"></li>
+                                        <li><a href="#">Another Language</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"> <a href="#"  title="Settings" class="dropdown-toggle" data-toggle="dropdown">Settings <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li role="presentation"></li>               
+                                        <li><a href="#">Exit</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <!-- Header Tag ends -->
+
+
+        <div class="clearfix"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-md-2 sidebar side-nav-closed" id="sidebar">
+                    <div class="accordion nav nav-sidebar" id="leftMenu">
+                        <div class="leftToggleContainer" style=""><i title="toggle sidebar" class=" fa-lg left-toggle-arrow fa fa-angle-double-right" id="toggle-left"></i> </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading active"> 
+
+                                <a href="#" title="Tasks" class="accordion-toggle" data-toggle="collapse" data-parent="#leftMenu"><span class="task_image_active"></span><span class = "dashboard-txt">Tasks</span></a> </div>          
+
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading in-active"> <a href="#" title="Task Manager" class="accordion-toggle" data-toggle="collapse" data-parent="#leftMenu"> <span class="task_manager_inactive"></span><span class = "dashboard-txt">Task Manager</span> </a> </div>
+
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading in-active"> <a href="#" title="ADP" class="accordion-toggle" data-toggle="collapse" data-parent="#leftMenu"> <span class="adp_inactive"></span><span class = "dashboard-txt">ADP</span></a> </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading in-active"> 
+                                <a href="#collapseTwo" title="Admin" class="accordion-toggle" data-toggle="collapse" data-parent="#leftMenu"><span class="admin_image_active"></span><span class = "dashboard-txt">Admin</span></a>
+                            </div>
+                            <div style="height: auto;" class="accordion-body collapse " id="collapseTwo">
+                                <div class="accordion-inner">
+                                    <ul class="nav nav-sidebar navsubmenu">
+                                        <li><a title="Add" href="#"><i></i>
+                                                <span class="add_user_image_inactive"></span>
+                                                <span class="dashboard-txt"> Add </span>
+                                            </a></li>
+                                        <li><a title="Mapping" href="#"><i></i>
+                                                <span class="mapping_image_inactive"></span>
+                                                <span class="dashboard-txt"> Mapping </span>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-69 col-sm-offset-3 col-md-10 col-md-offset-2 main right-content-closed right-content-opened" id="content">
+
+                    
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="clearboth"></div>
+        <!-- Footer section  starts here  -->
+        <footer class="footerLayout">			
+            <div class="pull-left">&copy;&nbsp;&nbsp;Trelleborg Sealing Solutions. All rights reserved</div>		
+        </footer>
+        <!-- Footer section  ends here  -->	
+
+
+
+
+
+
+        <!-- Bootstrap core JavaScript
+            ================================================== --> 
+        <!-- Placed at the end of the document so the pages load faster --> 
+        <script src="media/js/jquery.min.js"></script> 
+        <script src="media/js/bootstrap.min.js"></script> 
+        <script src="media/js/jquery.dataTables.js"></script> 
+        <script src="media/js/DT_bootstrap.js"></script>
+        <script src="media/js/docs.min.js"></script> 
+        <script src="media/js/moment.min.js"></script> 
+        <script src="media/js/bootstrap-datetimepicker.js"></script>
+        <script type="text/javascript" src="media/js/bootstrap-datetimepicker.js"></script>
+        <script src="media/js/bootstrap-checkbox.js"></script>
+        <!-- <script src="media/js/bootstrap-combobox.js"></script>
+        <script src="media/js/typeahead.js"></script> -->
+        <script src="media/js/bootstrap-tooltip.js"></script>
+
+
+        <script src="media/js/custom.js"></script>
+        <!-- <script src="media/js/sample1.js"></script>
+        -->
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+
+                /*$('.panel-collapse').on('shown.bs.collapse', function () {
+                 $(this).prev().find(".indicator").removeClass("fa-angle-down").addClass("fa-angle-up");
+                 });
+         
+                 //The reverse of the above on hidden event:
+         
+                 $('.panel-collapse').on('hidden.bs.collapse', function () {
+                 $(this).prev().find(".indicator").removeClass("fa-angle-up").addClass("fa-angle-down");
+                 });
+                 */
+
+                $('.outer-panel > .panel-title').on('click', function() {
+                    if ($(this).find(".indicator").hasClass('fa-angle-down')) {
+                        $(this).find(".indicator").removeClass("fa-angle-down").addClass("fa-angle-up");
+                    }
+                    else {
+                        $(this).find(".indicator").removeClass("fa-angle-up").addClass("fa-angle-down");
+                    }
+                });
+                $('.Inner-title').on('click', function() {
+                    if ($(this).find(".indicator").hasClass('fa-plus')) {
+                        $(this).find(".indicator").removeClass("fa-plus").addClass("fa-minus");
+                        // $(this).parent().hover(function(){
+                        //	'background-color': '#8B9995','color': '#ffffff'});
+                        //$(this).parent().css({'background-color': '#8B9995','color': '#ffffff'});
+                        //  $(this).parent().active({'background-color': '#8B9995','color': '#ffffff'});
+                    }
+                    else {
+                        $(this).find(".indicator").removeClass("fa-minus").addClass("fa-plus");
+
+                    }
+
+                });
+
+
+
+                $('#tasks thead tr td').unbind('click');
+
+                var dateVar = new Date();
+                var monthValue = (dateVar.getMonth() + 1);
+                var dayValue = dateVar.getDate();
+                var yearValue = dateVar.getFullYear();
+                if (dateVar.getMonth().toString().length < 2)
+                    var monthValue = "0" + (dateVar.getMonth() + 1);
+                if (dateVar.getMonth().toString().length < 1)
+                    var dayValue = "0" + dateVar.getDate();
+                var dateVal = dayValue + '-' + monthValue + '-' + dateVar.getFullYear();
+
+                $('.date input').eq(0).val(dateVal);
+
+                $('.sorting select').on('change', function() {
+
+                    if ($('.sorting_desc select option:selected').val() == "") {
+                        $('.sorting_desc select option[value="' + yearValue + '"]').prop("selected", "selected");
+                        $(".sorting_desc select").trigger("change");
+
+                    }
+                    else {
+
+                        return false;
+
+                    }
+
+
+                });
+
+            });
+
+        </script>
+    </body>
+</html>
